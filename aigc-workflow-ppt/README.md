@@ -1,60 +1,53 @@
-# AIGC 工作流教学 PPT 交付清单
+# AIGC 工作流实操教学 PPT 交付清单 v2
 
-本批次按“一个平台类型一套 PPT”生成，共 6 套，每套 150 页。
+本次根据反馈重新生成：上一版偏平台说明，本版改为 **AIGC 制作落地教学课件**。核心目标是让学员照着 PPT 一步一步搭建真实可用的 AIGC 制作工作流。
 
-| 序号 | PPT | 类型 | 页数 |
-|---|---|---|---|
-| 1 | AIGC工作流教学PPT_01_Coze_托管式智能体工作流_150页.pptx | 托管式智能体 / 低代码应用工作流 | 150 |
-| 2 | AIGC工作流教学PPT_02_n8n_通用自动化编排工作流_150页.pptx | 通用自动化编排 + AI 节点 | 150 |
-| 3 | AIGC工作流教学PPT_03_Dify_AI应用与RAG工作流_150页.pptx | AI 应用开发 / RAG / Agentic Workflow 平台 | 150 |
-| 4 | AIGC工作流教学PPT_04_ComfyUI_多模态视觉生成工作流_150页.pptx | 多模态图像 / 视频 / 节点式生成工作流 | 150 |
-| 5 | AIGC工作流教学PPT_05_OpenAI_GPT_API_Agents_代码优先智能体工作流_150页.pptx | 模型能力 / GPTs / Responses API / Agents SDK | 150 |
-| 6 | AIGC工作流教学PPT_06_Codex_研发编码智能体工作流_150页.pptx | 软件研发 / 编码智能体 / Git 工作流自动化 | 150 |
+## v2 修正重点
+
+1. 不再泛泛讲平台功能，统一围绕 AIGC 制作链路：剧本分析 → 角色设定 → 场景设计 → 分镜 → 图像 Prompt → 视频 Prompt → 质检返修 → 交付归档。
+2. 每套 PPT 都改为实操课结构：目标、逐步操作、参数字段、常见错误、排错方法、课堂实操、验收标准。
+3. 第 5 套重点重做：从“OpenAI GPT/API/Agents 平台介绍”改为“GPT/文字大模型中搭建 AIGC 制作工作流”。
+4. 每套至少 150 页，本版每套 154 页，共 924 页。
+5. 每一种类型的 AI 软件一个 PPT，避免混在同一套里。
+
+## v2 文件清单
+
+| 序号 | PPT | 类型 | 页数 | AIGC 落地案例 |
+|---|---|---|---:|---|
+| 1 | AIGC工作流实操PPT_v2_01_Coze_托管式智能体制作流_154页.pptx | 托管式智能体 / 低代码工作流 | 154 | 短剧剧本 → 角色/场景/分镜/Prompt 助手 |
+| 2 | AIGC工作流实操PPT_v2_02_n8n_自动化生产线_154页.pptx | 自动化编排 / API 流水线 | 154 | 表单需求 → LLM Prompt → 图/视频 API → 文件归档 |
+| 3 | AIGC工作流实操PPT_v2_03_Dify_RAG创作应用_154页.pptx | AI 应用 / RAG / Workflow | 154 | 导演风格库 + 场景规范库 → Prompt 生成应用 |
+| 4 | AIGC工作流实操PPT_v2_04_ComfyUI_视觉生成节点流_154页.pptx | 多模态视觉节点工作流 | 154 | 角色定妆照、场景空镜、视频关键帧生成 |
+| 5 | AIGC工作流实操PPT_v2_05_GPT文字大模型_AIGC制作工作流_154页.pptx | GPT / ChatGPT / 自定义 GPT / 文字大模型 | 154 | 在文字大模型中搭建剧本到 Prompt 的制作工作流 |
+| 6 | AIGC工作流实操PPT_v2_06_Codex_研发型AIGC工具链_154页.pptx | 研发编码智能体 / 工具链自动化 | 154 | 把剧本转 Prompt、批量命名、质检脚本做成仓库工具 |
+
+## 每套 PPT 的统一教学结构
+
+每章固定 5 页：
+
+1. 本章目标、位置与产出。
+2. 逐步操作：从入口、字段、节点、运行到保存结果。
+3. 参数、字段与模板：把“怎么配”写清楚。
+4. 常见错误与排错：真实落地时最容易卡住的点。
+5. 课堂实操与验收：做完才算本章真正落地。
+
+## 第 5 套 GPT/文字大模型重点
+
+第五套不再是 API 功能介绍，而是专门讲：
+
+- 什么叫文字大模型里的工作流。
+- 如何在普通 ChatGPT 中手动跑通 AIGC 制作链路。
+- 如何把链路固化成自定义 GPT。
+- 如何写 Instructions。
+- 如何上传导演风格、角色锚点、场景规范、Prompt 模板等知识文件。
+- 如何设计 Conversation Starters。
+- 如何生成剧本清洗、剧情结构、人物关系、角色面部提示词、场景空镜提示词、分镜规则、镜头提示词、负面词、质检表、返修模板。
+- 如何用 Actions/API 连接外部 AIGC 自动化工具。
 
 ## 使用建议
 
-1. 每套课件按 30 个章节、每章 5 页组织。
-2. 用于培训时建议先讲概念与架构，再现场搭建最小可用工作流。
-3. 企业内部落地前，需要重新核对账号权限、价格、数据安全要求和官方最新界面。
+建议用“讲解 20% + 实操 60% + 排错 20%”的方式培训。每一章都必须用真实 AIGC 制作任务跑通，不能只看平台界面。
 
-## 平台清单
+## GitHub 说明
 
-### Coze
-- 类型：托管式智能体 / 低代码应用工作流
-- 定位：适合快速搭建中文智能体、办公助手、知识问答、插件式业务自动化。
-- 案例：搭建“周报生成助手”：输入本周事项，调用大模型整理摘要、风险、下周计划，并输出 Markdown 周报。
-- 参考资料：https://www.coze.cn/open/docs/guides/agent_workflow；https://www.coze.cn/open/docs/guides/llm_node；https://www.coze.cn/open/docs/guides/plugin_node；https://www.coze.cn/open/docs/guides/run_app_as_api
-
-### n8n
-- 类型：通用自动化编排 + AI 节点
-- 定位：适合把表单、Webhook、数据库、邮件、IM、CRM 与大模型串成可维护的自动化流程。
-- 案例：搭建“内容摘要 API”：外部系统 POST 文本，n8n 调用模型生成摘要、标题、行动建议，并返回 JSON。
-- 参考资料：https://docs.n8n.io/；https://docs.n8n.io/deploy/host-n8n/install-options/install-with-docker；https://docs.n8n.io/data/data-structure/；https://docs.n8n.io/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.chainllm
-
-### Dify
-- 类型：AI 应用开发 / RAG / Agentic Workflow 平台
-- 定位：适合把知识库、模型供应商、工作流、Chatflow、API 发布和日志观测整合为 AI 应用平台。
-- 案例：搭建“公司制度问答助手”：上传制度文档，用户提问后先检索知识库，再由 LLM 基于引用生成回答。
-- 参考资料：https://docs.dify.ai/zh/self-host/deploy/quick-start/docker-compose；https://docs.dify.ai/zh/cloud/use-dify/build/workflow-chatflow；https://docs.dify.ai/zh/use-dify/workspace/model-providers；https://docs.dify.ai/zh/cloud/use-dify/publish/developing-with-apis
-
-### ComfyUI
-- 类型：多模态图像 / 视频 / 节点式生成工作流
-- 定位：适合做文生图、图生图、LoRA、ControlNet、视频生成、批量出图和视觉生产流水线。
-- 案例：搭建“短剧角色定妆照生成流”：输入角色描述、服化要求、负面词，生成统一风格的人物定妆图。
-- 参考资料：https://docs.comfy.org/zh/comfy-cli/getting-started；https://docs.comfy.org/zh/manager/install；https://docs.comfy.org/zh/development/api-development/workflow-api-format；https://docs.comfy.org/zh/development/comfyui-server/api-examples
-
-### OpenAI GPT/API/Agents
-- 类型：模型能力 / GPTs / Responses API / Agents SDK
-- 定位：适合用 GPTs 做轻量内部助手，用 Responses API 和 Agents SDK 做代码化、可控、可扩展的智能体系统。
-- 案例：搭建“结构化内容审核 Agent”：输入文案，模型按 Schema 输出风险等级、修改建议、是否需要人工复核。
-- 参考资料：https://help.openai.com/en/articles/8554397-creating-a-gpt；https://developers.openai.com/api/reference/responses/overview；https://developers.openai.com/api/docs/guides/agents；https://developers.openai.com/api/docs/guides/structured-outputs
-
-### Codex
-- 类型：软件研发 / 编码智能体 / Git 工作流自动化
-- 定位：适合仓库理解、代码修改、测试、重构、迁移、PR 辅助、CI/CD 中的研发自动化任务。
-- 案例：搭建“仓库自动体检工作流”：Codex 扫描项目结构，输出风险清单、修复建议，并按 Schema 生成报告。
-- 参考资料：https://developers.openai.com/codex；https://developers.openai.com/codex/cli；https://developers.openai.com/codex/config-basic；https://developers.openai.com/codex/noninteractive；https://developers.openai.com/codex/mcp
-
-## 文件说明
-
-PPT 二进制文件已在 ChatGPT 运行环境生成。GitHub 当前写入的是交付清单；如需把 PPT 文件也放进仓库，需要使用支持二进制上传的 Git 客户端或后续提供仓库上传权限/流程。
+本仓库记录交付清单与课程结构说明。PPT 二进制文件在 ChatGPT 会话中交付下载；如果需要把 PPT 也提交到仓库，需要用本地 Git 客户端或支持二进制上传的流程提交。
